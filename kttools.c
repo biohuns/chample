@@ -10,7 +10,7 @@
 #include "coordcube.h"
 #include "cubiecube.h"
 #include "facecube.h"
-#include "mt19937ar.c"
+#include "mt19937ar.h"
 
 // メルセンヌツイスタの初期化
 void mt_init(unsigned long s) { init_genrand(s); }

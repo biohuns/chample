@@ -7,7 +7,7 @@
 #include "kttools.h"
 #include "search.h"
 
-void init() {
+void scramble_init() {
   // シード値
   unsigned long seed = 0;
   // 静的データの初期化
