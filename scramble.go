@@ -27,7 +27,7 @@ type (
 
 var (
 	empty = Scramble{
-		Facelets: strings.Repeat(" ", 56),
+		Facelets: strings.Repeat(" ", 128),
 		Sequence: strings.Repeat(" ", 256),
 	}
 )
