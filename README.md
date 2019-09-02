@@ -1,5 +1,7 @@
 # scramble
 
+[![CircleCI](https://circleci.com/gh/biohuns/scramble.svg?style=svg)](https://circleci.com/gh/biohuns/scramble)
+
 This repository is a fork of [chample](https://github.com/kotarot/chample) that can be called from Go.
 
 ## Usage
