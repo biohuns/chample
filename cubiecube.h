@@ -7,10 +7,10 @@
 
 // initialize to Id-Cube
 typedef struct _TAG_CUBIECUBE {
-    char cp[8];
-    char co[8];
-    char ep[12];
-    char eo[12];
+  char cp[8];
+  char co[8];
+  char ep[12];
+  char eo[12];
 } CubieCube;
 
 #include "facecube.h"
@@ -70,5 +70,3 @@ extern void set_URtoBR(CubieCube *cubie, int idx);
 extern int cubiecube_verify(CubieCube *cubie);
 
 #endif
-
-

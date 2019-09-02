@@ -1,25 +1,25 @@
 /**
  * coordcube.h
- * 
+ *
  * coordcube.cのヘッダファイル
  */
 
 #ifndef __TPD_COORDCUBE__
 #define __TPD_COORDCUBE__
 
-#define N_TWIST 2187     // 3^7 possible corner orientations
-#define N_FLIP 2048      // 2^11 possible edge flips
-#define N_SLICE1 495     // 12 choose 4 possible positions of FR,FL,BL,BR edges
-#define N_SLICE2 24      // 4! permutations of FR,FL,BL,BR edges in phase2
-#define N_PARITY 2       // 2 possible corner parities
-#define N_URFtoDLF 20160 // 8!/(8-6)! permutation of URF,UFL,ULB,UBR,DFR,DLF corners
-#define N_FRtoBR 11880   // 12!/(12-4)! permutation of FR,FL,BL,BR edges
-#define N_URtoUL 1320    // 12!/(12-3)! permutation of UR,UF,UL edges
-#define N_UBtoDF 1320    // 12!/(12-3)! permutation of UB,DR,DF edges
-#define N_URtoDF 20160   // 8!/(8-6)! permutation of UR,UF,UL,UB,DR,DF edges in phase2
+#define N_TWIST 2187      // 3^7 possible corner orientations
+#define N_FLIP 2048       // 2^11 possible edge flips
+#define N_SLICE1 495      // 12 choose 4 possible positions of FR,FL,BL,BR edges
+#define N_SLICE2 24       // 4! permutations of FR,FL,BL,BR edges in phase2
+#define N_PARITY 2        // 2 possible corner parities
+#define N_URFtoDLF 20160  // 8!/(8-6)! permutation of URF,UFL,ULB,UBR,DFR,DLF corners
+#define N_FRtoBR 11880    // 12!/(12-4)! permutation of FR,FL,BL,BR edges
+#define N_URtoUL 1320     // 12!/(12-3)! permutation of UR,UF,UL edges
+#define N_UBtoDF 1320     // 12!/(12-3)! permutation of UB,DR,DF edges
+#define N_URtoDF 20160    // 8!/(8-6)! permutation of UR,UF,UL,UB,DR,DF edges in phase2
 
-#define N_URFtoDLB 40320   // 8! permutations of the corners
-#define N_URtoBR 479001600 // 8! permutations of the corners
+#define N_URFtoDLB 40320    // 8! permutations of the corners
+#define N_URtoBR 479001600  // 8! permutations of the corners
 
 #define N_MOVE 18
 
@@ -35,14 +35,14 @@
 #define N_SLICE1_FLIP_2 506880
 
 typedef struct _TAG_COORDCUBE {
-    short twist;
-    short flip;
-    short parity;
-    short FRtoBR;
-    short URFtoDLF;
-    short URtoUL;
-    short UBtoDF;
-    int URtoDF;
+  short twist;
+  short flip;
+  short parity;
+  short FRtoBR;
+  short URFtoDLF;
+  short URtoUL;
+  short UBtoDF;
+  int URtoDF;
 } CoordCube;
 
 #include "cubiecube.h"
@@ -69,5 +69,3 @@ void set_pruning(char *table, int index, char value);
 extern char get_pruning(char *table, int index);
 
 #endif
-
-

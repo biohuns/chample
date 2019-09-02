@@ -6,7 +6,7 @@
 #define __TPD_FACECUBE__
 
 typedef struct _TAG_FACECUBE {
-	char f[54];
+  char f[54];
 } FaceCube;
 
 #include "cubiecube.h"
@@ -22,5 +22,3 @@ extern void to_string(FaceCube *fc, char *s);
 extern void to_cubiecube(FaceCube *fc, CubieCube *ccret);
 
 #endif
-
-

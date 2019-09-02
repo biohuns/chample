@@ -9,5 +9,5 @@ but include some useful options.
 
 ## Applications
 
-* [Champler](http://wrcc.main.jp/tools/champler) is a Web interface for Chample.
-* [CubeChampleAPI](http://www.terabo.net/cube/apidocs/chample/) is a API for Chample.
+- [Champler](http://wrcc.main.jp/tools/champler) is a Web interface for Chample.
+- [CubeChampleAPI](http://www.terabo.net/cube/apidocs/chample/) is a API for Chample.

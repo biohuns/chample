@@ -21,5 +21,3 @@ extern void yy_cube_test2(char *des);
 extern void reverse_alg(char *src, char *des);
 
 #endif
-
-

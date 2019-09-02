@@ -8,5 +8,3 @@
 extern void scramble(char facelets[128], char sequence[256]);
 
 #endif
-
-
