@@ -8,6 +8,10 @@ This repository is a fork of [chample](https://github.com/kotarot/chample) that 
 
 ### [Example Code](https://github.com/biohuns/scramble/blob/master/_example/main.go)
 
+```bash
+go get github.com/biohuns/scramble
+```
+
 ```go
 // First, execute Init()
 scramble.Init()
